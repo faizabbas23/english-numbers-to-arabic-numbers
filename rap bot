@@ -1,0 +1,16 @@
+import pyttsx3 as pt3
+print("how do you feel?")
+x = input()
+if input == ("like a rap god"):
+    for i in range(1):
+        engine = pt3.init()
+        engine.say("I'm beginnin' to feel like a Rap God, Rap God All my people from the front to the back nod, back nod Now, who thinks their arms are long enough to slap box, slap box? They said I rap like a robot, so call me Rap-bot")
+        engine.setProperty('rate',0)
+        engine.setProperty('volume', 1)
+        engine.runAndWait()
+
+        engine = pt3.init()
+        engine.say("Uh, summa-lumma, dooma-lumma, you assumin' I'm a human What I gotta do to get it through to you I'm superhuman? Innovative and I'm made of rubber so that anything you say is ricochetin' off of me and it'll glue to you and I'm devastating, more than ever demonstrating How to give a motherfuckin' audience a feeling like it's levitating Never fading, and I know the haters are forever waiting For the day that they can say I fell off, they'll be celebrating I make elevating music, you make elevator music")
+        engine.setProperty('rate',-100000)
+        engine.setProperty('volume', 1)
+        engine.runAndWait()
